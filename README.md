@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CODEC 2025 - Landing Page
 
-## Getting Started
+Landing page oficial do **CODEC** (Congresso de Desenvolvimento nos Esportes de Contato), um evento de aperfeiçoamento e atualização acadêmica focado no desenvolvimento e aprendizagem dos esportes de contato.
 
-First, run the development server:
+## 📋 Sobre o Evento
 
+- **Data:** 20 de Setembro de 2025 (Sábado)
+- **Horário:** 09h00 às 13h00 (4 horas)
+- **Local:** ETEC Itaquera II - Auditório
+- **Endereço:** Av. Miguel Ignácio Curi, s/nº - Vila Carmosina - São Paulo/SP
+- **Slogan:** Artes Marciais: Tradição, Corpo e Mente em Harmonia
+
+## 🎯 Objetivos
+
+1. Promover a discussão sobre métodos de ensino e aprendizagem nos esportes de contato
+2. Estimular a inclusão social por meio das artes marciais
+3. Divulgar projetos e práticas inovadoras relacionadas à acessibilidade e empoderamento
+4. Fortalecer a rede de profissionais e praticantes da área
+5. Recolher brinquedos como forma de ingresso, promovendo responsabilidade social
+
+## 🧸 Responsabilidade Social
+
+O evento une esporte e responsabilidade social ao trocar a entrada por brinquedos para doação. Todos os brinquedos arrecadados serão doados para crianças em situação de vulnerabilidade social.
+
+## 🏢 Organizadores
+
+**Realização:** OPAM - Organização Paulista de Artes Marciais / NIN DO RYU
+
+**Coordenação:**
+- Professor Bruno (Educação Física, Pedagogia, Especialista em docência no ensino superior, Faixa Preta 3º Dan)
+- Professor Sidney (Educação Física, Pedagogia, Psicopedagogia, Mestre em Gestão Educacional, Faixa Marrom)
+
+## 🚀 Tecnologias
+
+Este projeto foi desenvolvido com:
+
+- [Next.js 15](https://nextjs.org/) - Framework React
+- [TypeScript](https://www.typescriptlang.org/) - Tipagem estática
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS
+- [Inter Font](https://fonts.google.com/specimen/Inter) - Fonte do Google
+
+## 🛠️ Como Executar
+
+1. Clone o repositório
+2. Instale as dependências:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Execute o servidor de desenvolvimento:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📱 Funcionalidades
 
-## Learn More
+- ✅ Design responsivo para mobile, tablet e desktop
+- ✅ Seções informativas sobre o evento
+- ✅ Informações sobre organizadores e objetivos
+- ✅ Destaque para responsabilidade social
+- ✅ Informações de localização e contato
+- ✅ Call-to-action para inscrições
+- ✅ SEO otimizado
+- ✅ Acessibilidade
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Seções da Landing Page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Hero** - Apresentação principal do evento
+2. **Sobre** - Informações detalhadas sobre o CODEC
+3. **Objetivos** - Metas e propósitos do congresso
+4. **Responsabilidade Social** - Campanha de arrecadação de brinquedos
+5. **Organizadores** - Perfis dos coordenadores
+6. **Local** - Informações sobre o local do evento
+7. **Inscrições** - Como participar do evento
+8. **Contato** - Informações de contato e rodapé
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📞 Contato
 
-## Deploy on Vercel
+**ETEC Itaquera II:**
+- Tel: (11) 2056-5142 / (11) 2056-5148
+- Email: e285acad@cps.sp.gov.br
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎓 Certificação
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Os participantes receberão certificado digital contendo a programação, carga horária e selo oficial das unidades parceiras.
+
+---
+
+**CODEC 2025** - Construindo um futuro em que as artes marciais sejam verdadeiramente acessíveis a todos. 🥋✨
