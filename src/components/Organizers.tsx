@@ -89,27 +89,33 @@ const Organizers: React.FC<OrganizersProps> = ({ className = '' }) => {
           ))}
         </div>
         <div className="text-center">
-          <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white rounded-xl p-6 sm:p-8 lg:p-10 relative overflow-hidden">
-            <div className="absolute inset-0 bg-black/20" aria-hidden="true"></div>
-            <div className="relative z-10">
-              <h3 className="text-2xl sm:text-3xl font-bold mb-6 text-yellow-100">
-                Realização
-              </h3>
-              <div className="max-w-2xl mx-auto">
-                <div className="mb-6">
-                  <p className="text-xl sm:text-2xl font-bold mb-2 text-gray-100">OPAM</p>
-                  <p className="text-base sm:text-lg mb-4 text-gray-200">
-                    Organização Paulista de Artes Marciais
-                  </p>
-                  <p className="text-sm sm:text-base text-gray-300">NIN DO RYU</p>
+          <div className="bg-white rounded-xl p-6 sm:p-8 lg:p-10 shadow-lg border border-gray-200">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-8 text-gray-800">
+              Realização
+            </h3>
+            <div className="max-w-2xl mx-auto">
+              <div className="mb-8">
+                <div className="flex flex-col items-center justify-center gap-4 mb-4">
+                  <Image
+                    src="/opam-logo.jpeg"
+                    alt="Logo OPAM"
+                    width={200}
+                    height={200}
+                    className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 object-contain"
+                  />
+                  <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800">OPAM</p>
                 </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-6 border border-white/20">
-                  <p className="text-sm sm:text-base text-gray-100 leading-relaxed">
-                    <span className="font-semibold">Nossa missão:</span> Promover o desenvolvimento técnico e pedagógico 
-                    nas artes marciais, integrando tradição e inovação para formar profissionais capacitados 
-                    e conscientes de seu papel social.
-                  </p>
-                </div>
+                <p className="text-lg sm:text-xl mb-4 text-gray-600">
+                  Organização Paulista de Artes Marciais
+                </p>
+                <p className="text-base sm:text-lg text-gray-700 font-medium">NIN DO RYU</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-6 sm:p-8 border border-gray-100">
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                  <span className="font-semibold text-gray-800">Nossa missão:</span> Promover o desenvolvimento técnico e pedagógico 
+                  nas artes marciais, integrando tradição e inovação para formar profissionais capacitados 
+                  e conscientes de seu papel social.
+                </p>
               </div>
             </div>
           </div>
