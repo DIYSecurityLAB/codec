@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+:root {
+  --primary: #059669; /* Green-600 */
+  --primary-dark: #047857; /* Green-700 */
+  --secondary: #2563eb; /* Blue-600 */
+  --secondary-dark: #1d4ed8; /* Blue-700 */
+  --accent: #dc2626; /* Red-600 */
+  --text-primary: #111827; /* Gray-900 */
+  --text-secondary: #6b7280; /* Gray-500 */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb; /* Gray-50 */
+}
+
+.focus-visible\:ring-primary:focus-visible {
+  --tw-ring-color: var(--primary);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--primary);
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+  border-radius: 4px;
+}
+
+.skip-link:focus {
+  top: 6px;
+}
