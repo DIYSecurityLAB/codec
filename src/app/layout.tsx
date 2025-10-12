@@ -24,16 +24,30 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "OPAM - Organização Paulista de Artes Marciais" }],
   creator: "OPAM - NIN DO RYU",
+  icons: {
+    icon: '/logo.svg',
+    shortcut: '/logo.svg',
+    apple: '/logo.svg',
+  },
   openGraph: {
     title: "CODEC 2025 - Congresso de Desenvolvimento nos Esportes de Contato",
     description: "Artes Marciais: Tradição, Corpo e Mente em Harmonia",
     type: "website",
     locale: "pt_BR",
+    images: [
+      {
+        url: '/logo.svg',
+        width: 1200,
+        height: 630,
+        alt: 'CODEC 2025 Logo',
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "CODEC 2025 - Congresso de Desenvolvimento nos Esportes de Contato",
     description: "Artes Marciais: Tradição, Corpo e Mente em Harmonia",
+    images: ['/logo.svg'],
   },
 };
 

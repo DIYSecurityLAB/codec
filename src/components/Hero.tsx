@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 interface HeroProps {
   className?: string;
@@ -16,15 +17,23 @@ const Hero: React.FC<HeroProps> = ({ className = "" }) => {
     >
       <div className="absolute inset-0 bg-black/40" aria-hidden="true"></div>
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-        <h1
-          id="hero-title"
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
-        >
-          <span className="block">CODEC</span>
-          <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-normal block mt-2 text-gray-100">
+        <div className="flex flex-col items-center mb-6">
+          <div className="mb-2">
+            <Image
+              src="/logo.svg"
+              alt="CODEC - Congresso de Desenvolvimento nos Esportes de Contato"
+              className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 object-contain"
+              width={224}
+              height={224}
+            />
+          </div>
+          <h1
+            id="hero-title"
+            className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-normal leading-tight text-center text-gray-100"
+          >
             Congresso de Desenvolvimento nos Esportes de Contato
-          </span>
-        </h1>
+          </h1>
+        </div>
 
         <p className="text-lg sm:text-xl md:text-2xl mb-8 font-medium text-gray-100 max-w-3xl mx-auto">
           Artes Marciais: Tradição, Corpo e Mente em Harmonia

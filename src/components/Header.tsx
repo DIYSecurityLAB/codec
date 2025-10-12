@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 interface HeaderProps {
   className?: string;
@@ -36,22 +37,20 @@ const Header: React.FC<HeaderProps> = ({ className = "" }) => {
           aria-label="Navegação principal"
         >
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <div
-                className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-green-600 to-blue-600 rounded-lg flex items-center justify-center"
-                aria-hidden="true"
-              >
-                <span className="text-white font-bold text-lg sm:text-xl">
-                  C
-                </span>
+            <div className="flex items-center space-x-4">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center">
+                <Image 
+                  src="/logo.svg" 
+                  alt="CODEC Logo" 
+                  className="w-full h-full object-contain"
+                  width={64}
+                  height={64}
+                />
               </div>
               <div>
-                <h1 className="text-lg sm:text-xl font-bold text-gray-800">
+                <h1 className="text-xl sm:text-2xl font-bold text-gray-800">
                   CODEC
                 </h1>
-                <p className="text-xs text-gray-600" aria-label="Ano do evento">
-                  2025
-                </p>
               </div>
             </div>
             <div className="hidden lg:flex items-center space-x-6">
