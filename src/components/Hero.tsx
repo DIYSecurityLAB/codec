@@ -11,11 +11,12 @@ const Hero: React.FC<HeroProps> = ({ className = "" }) => {
   return (
     <section
       id="main-content"
-      className={`relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 via-green-800 to-blue-800 ${className}`}
+      className={`relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat ${className}`}
+      style={{ backgroundImage: 'url("/bg-codec.webp")' }}
       role="banner"
       aria-labelledby="hero-title"
     >
-      <div className="absolute inset-0 bg-black/40" aria-hidden="true"></div>
+      <div className="absolute inset-0 bg-black/50" aria-hidden="true"></div>
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <div className="flex flex-col items-center mb-6">
           <div className="mb-2">
@@ -23,6 +24,10 @@ const Hero: React.FC<HeroProps> = ({ className = "" }) => {
               src="/logo.svg"
               alt="CODEC - Congresso de Desenvolvimento nos Esportes de Contato"
               className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 object-contain"
+              style={{
+                filter:
+                  "brightness(0) saturate(100%) invert(22%) sepia(73%) saturate(1234%) hue-rotate(180deg) brightness(96%) contrast(91%)",
+              }}
               width={224}
               height={224}
             />
