@@ -76,6 +76,13 @@ const Header: React.FC<HeaderProps> = ({ className = "" }) => {
                 Organizadores
               </a>
               <a
+                href="#palestrantes"
+                className="text-gray-700 hover:text-green-600 focus-visible:text-green-600 transition-colors font-medium focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-md px-2 py-1"
+                aria-label="Ir para seção Palestrantes"
+              >
+                Palestrantes
+              </a>
+              <a
                 href="#local"
                 className="text-gray-700 hover:text-green-600 focus-visible:text-green-600 transition-colors font-medium focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 rounded-md px-2 py-1"
                 aria-label="Ir para seção Local"
@@ -165,6 +172,15 @@ const Header: React.FC<HeaderProps> = ({ className = "" }) => {
                   aria-label="Ir para seção Organizadores"
                 >
                   Organizadores
+                </a>
+                <a
+                  href="#palestrantes"
+                  className="text-gray-700 hover:text-green-600 focus-visible:text-green-600 transition-colors font-medium py-2 px-3 rounded-md focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+                  onClick={closeMobileMenu}
+                  role="menuitem"
+                  aria-label="Ir para seção Palestrantes"
+                >
+                  Palestrantes
                 </a>
                 <a
                   href="#local"

@@ -8,25 +8,28 @@ interface OrganizersProps {
 const Organizers: React.FC<OrganizersProps> = ({ className = '' }) => {
   const organizers = [
     {
-      name: 'Professor Bruno',
+      name: 'Sidney Alves',
       qualifications: [
-        'Educação Física – Pedagogia',
-        'Especialista em docência no ensino superior',
-        'Faixa Preta 3º Dan'
-      ],
-      image: '/bruno.jpeg',
-      ariaLabel: 'Perfil do Professor Bruno'
-    },
-    {
-      name: 'Professor Sidney',
-      qualifications: [
-        'Educação Física – Pedagogia',
-        'Psicopedagogia Clínica e Institucional',
-        'Mestre em Gestão Educacional',
-        'Faixa Marrom'
+        'Professor de Administração de Empresas',
+        'Professor de Educação Física',
+        'Mestre em Educação',
+        'Praticante de Artes Marciais',
+        'Organizador do Congresso CODEC'
       ],
       image: '/sidney.jpeg',
-      ariaLabel: 'Perfil do Professor Sidney'
+      ariaLabel: 'Perfil do Professor Sidney Alves'
+    },
+    {
+      name: 'Bruno Garcia',
+      qualifications: [
+        'Professor de Educação Física',
+        'Sensei de Artes Marciais',
+        'Presidente da OPAM',
+        'Fundador da CODEC',
+        'Organizador do Congresso CODEC'
+      ],
+      image: '/bruno.jpeg',
+      ariaLabel: 'Perfil do Sensei Bruno Garcia'
     }
   ];
 
