@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 interface OrganizersProps {
   className?: string;
@@ -13,7 +14,7 @@ const Organizers: React.FC<OrganizersProps> = ({ className = '' }) => {
         'Especialista em docência no ensino superior',
         'Faixa Preta 3º Dan'
       ],
-      avatar: '👨‍🏫',
+      image: '/bruno.jpeg',
       ariaLabel: 'Perfil do Professor Bruno'
     },
     {
@@ -24,7 +25,7 @@ const Organizers: React.FC<OrganizersProps> = ({ className = '' }) => {
         'Mestre em Gestão Educacional',
         'Faixa Marrom'
       ],
-      avatar: '👨‍🎓',
+      image: '/sidney.jpeg',
       ariaLabel: 'Perfil do Professor Sidney'
     }
   ];
@@ -56,8 +57,16 @@ const Organizers: React.FC<OrganizersProps> = ({ className = '' }) => {
               role="article"
               aria-label={organizer.ariaLabel}
             >
-              <div className="text-5xl sm:text-6xl lg:text-7xl mb-6" aria-hidden="true">
-                {organizer.avatar}
+              <div className="mb-6 flex justify-center">
+                <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 rounded-full overflow-hidden border-4 border-green-200 shadow-lg">
+                  <Image
+                    src={organizer.image}
+                    alt={`Foto do ${organizer.name}`}
+                    width={128}
+                    height={128}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
               <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-800 mb-6">
                 {organizer.name}
