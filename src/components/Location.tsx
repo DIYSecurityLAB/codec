@@ -111,23 +111,19 @@ const Location: React.FC<LocationProps> = ({ className = '' }) => {
             </div>
           </div>
           <div className="order-1 lg:order-2">
-            <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl p-8 sm:p-12 h-96 lg:h-[500px] flex items-center justify-center border border-gray-300">
-              <div className="text-center text-gray-500">
-                <div className="text-6xl sm:text-7xl lg:text-8xl mb-6" aria-hidden="true">🗺️</div>
-                <h4 className="text-lg sm:text-xl font-semibold mb-4 text-gray-700">Mapa do Local</h4>
-                <p className="text-sm sm:text-base text-gray-600 leading-relaxed max-w-xs mx-auto">
-                  Integração com Google Maps será<br />
-                  implementada em breve
-                </p>
-                <button 
-                  className="mt-4 text-sm text-green-600 hover:text-green-700 focus-visible:text-green-700 underline focus-visible:ring-2 focus-visible:ring-green-500 focus-visible:ring-offset-2 rounded-md px-2 py-1"
-                  onClick={() => window.open('https://maps.google.com/?q=ETEC+Itaquera+II', '_blank')}
-                  aria-label="Abrir localização no Google Maps"
-                  type="button"
-                >
-                  Ver no Google Maps
-                </button>
-              </div>
+            <div className="rounded-xl overflow-hidden shadow-lg border border-gray-300">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6693826419787!2d-46.46950802467037!3d-23.544390878811562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66dd33aa04c9%3A0xa03c85089d8c95dd!2sEtec%20Itaquera%20II!5e0!3m2!1spt-BR!2sbr!4v1760302512273!5m2!1spt-BR!2sbr"
+                width="100%" 
+                height="450" 
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Localização da ETEC Itaquera II"
+                aria-label="Mapa mostrando a localização da ETEC Itaquera II"
+                className="w-full h-96 lg:h-[500px]"
+              />
             </div>
           </div>
         </div>
