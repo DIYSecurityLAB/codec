@@ -95,12 +95,57 @@ const Hero: React.FC<HeroProps> = ({ className = "" }) => {
             Saiba Mais
           </button>
         </div>
-        <div className="mt-12 text-sm sm:text-base bg-black/20 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-          <p className="font-medium text-gray-200">Realização:</p>
-          <p className="text-gray-100">
-            OPAM - Organização Paulista de Artes Marciais
-          </p>
-          <p className="text-gray-100">NIN DO RYU</p>
+        <div className="mt-12 grid sm:grid-cols-2 gap-4 sm:gap-6">
+          <div className="text-sm sm:text-base bg-black/20 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+            <p className="font-medium text-gray-200 mb-2">Realização:</p>
+            <p className="text-gray-100 text-sm">
+              OPAM - Organização Paulista de Artes Marciais
+            </p>
+            <p className="text-gray-100 text-sm">NIN DO RYU</p>
+          </div>
+          
+          <div className="text-sm sm:text-base bg-black/20 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+            <p className="font-medium text-gray-200 mb-3 text-center">Apoiadores Principais:</p>
+            <div className="flex items-center justify-center gap-4 mb-3">
+              <div className="flex flex-col items-center">
+                <div className="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center mb-1 border border-white/20">
+                  <Image
+                    src="/opam-logo.jpeg"
+                    alt="Logo OPAM"
+                    width={32}
+                    height={32}
+                    className="w-8 h-8 object-contain"
+                  />
+                </div>
+                <span className="text-gray-100 text-xs font-medium">OPAM</span>
+              </div>
+              <div className="flex flex-col items-center">
+                <div className="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center mb-1 border border-white/20">
+                  <Image
+                    src="/logo.svg"
+                    alt="Logo CODEC"
+                    width={32}
+                    height={32}
+                    className="w-8 h-8 object-contain brightness-0 invert"
+                  />
+                </div>
+                <span className="text-gray-100 text-xs font-medium">CODEC</span>
+              </div>
+            </div>
+            <p className="text-center">
+              <button 
+                onClick={() =>
+                  document
+                    .getElementById("apoiadores")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }
+                className="text-gray-300 hover:text-white text-xs underline focus-visible:text-white focus-visible:ring-1 focus-visible:ring-white rounded px-1"
+                aria-label="Ver todos os apoiadores"
+              >
+                Ver todos os apoiadores
+              </button>
+            </p>
+          </div>
         </div>
       </div>
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">

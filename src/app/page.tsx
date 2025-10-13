@@ -5,6 +5,7 @@ import Objectives from '@/components/Objectives';
 import SocialResponsibility from '@/components/SocialResponsibility';
 import Organizers from '@/components/Organizers';
 import Speakers from '@/components/Speakers';
+import Supporters from '@/components/Supporters';
 import Location from '@/components/Location';
 import Registration from '@/components/Registration';
 import Footer from '@/components/Footer';
@@ -19,6 +20,7 @@ export default function Home() {
       <SocialResponsibility />
       <Organizers />
       <Speakers />
+      <Supporters />
       <Location />
       <Registration />
       <Footer />
