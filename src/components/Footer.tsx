@@ -46,11 +46,11 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
             <div className="space-y-3 text-gray-300 text-sm sm:text-base">
               <div className="flex items-center">
                 <span className="text-lg mr-2" aria-hidden="true">📅</span>
-                <span>20 de Setembro de 2025</span>
+                <span>14 de Novembro de 2025</span>
               </div>
               <div className="flex items-center">
                 <span className="text-lg mr-2" aria-hidden="true">🕘</span>
-                <span>09h00 às 13h00</span>
+                <span>19h00</span>
               </div>
               <div className="flex items-center">
                 <span className="text-lg mr-2" aria-hidden="true">📍</span>

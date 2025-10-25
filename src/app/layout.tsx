@@ -11,7 +11,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "CODEC 2025 - Congresso de Desenvolvimento nos Esportes de Contato",
   description:
-    "Artes Marciais: Tradição, Corpo e Mente em Harmonia. 20 de Setembro de 2025, ETEC Itaquera II, São Paulo/SP. Evento gratuito com responsabilidade social - traga um brinquedo como ingresso.",
+    "Artes Marciais: Tradição, Corpo e Mente em Harmonia. 14 de Novembro de 2025, às 19h, ETEC Itaquera II, São Paulo/SP. Evento gratuito com responsabilidade social - traga um brinquedo como ingresso.",
   keywords: [
     "artes marciais",
     "esportes de contato",

@@ -58,7 +58,7 @@ const About: React.FC<AboutProps> = ({ className = '' }) => {
                   <span className="text-2xl mr-4 mt-1" aria-hidden="true">📅</span>
                   <div className="flex-1">
                     <p className="font-semibold text-gray-800 text-base sm:text-lg">Data</p>
-                    <p className="text-gray-600 text-sm sm:text-base">20 de Setembro de 2025 (Sábado)</p>
+                    <p className="text-gray-600 text-sm sm:text-base">14 de Novembro de 2025 (Sexta)</p>
                   </div>
                 </div>
                 
@@ -66,7 +66,7 @@ const About: React.FC<AboutProps> = ({ className = '' }) => {
                   <span className="text-2xl mr-4 mt-1" aria-hidden="true">🕘</span>
                   <div className="flex-1">
                     <p className="font-semibold text-gray-800 text-base sm:text-lg">Horário</p>
-                    <p className="text-gray-600 text-sm sm:text-base">09h00 às 13h00 (4 horas)</p>
+                    <p className="text-gray-600 text-sm sm:text-base">19h00</p>
                   </div>
                 </div>
                 

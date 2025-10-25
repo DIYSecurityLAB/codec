@@ -51,7 +51,7 @@ const Hero: React.FC<HeroProps> = ({ className = "" }) => {
               </span>
               <span>
                 <span className="sr-only">Data: </span>
-                20 de Setembro de 2025 (Sábado)
+                14 de Novembro de 2025 (Sexta)
               </span>
             </div>
             <div className="flex items-center justify-center sm:justify-start">
@@ -60,7 +60,7 @@ const Hero: React.FC<HeroProps> = ({ className = "" }) => {
               </span>
               <span>
                 <span className="sr-only">Horário: </span>
-                09h00 às 13h00
+                19h00
               </span>
             </div>
             <div className="flex items-center justify-center sm:justify-start">
