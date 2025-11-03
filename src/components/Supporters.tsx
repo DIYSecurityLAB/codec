@@ -38,6 +38,10 @@ const Supporters: React.FC<SupportersProps> = ({ className = '' }) => {
     {
       name: 'Ita Chaves',
       logo: '/itachaves.jpeg',
+    },
+    {
+      name: 'GIacco Becas',
+      logo: '/giacco-becas.jpeg',
     }
   ];
 

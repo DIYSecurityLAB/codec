@@ -159,15 +159,6 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
                 aria-label="Visitar site da HASTYDEV"
               >
                 HASTYDEV
-              </a>Powered by{' '}
-              <a 
-                href="https://hastydev.com.br" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-500 hover:text-gray-400 focus-visible:text-gray-400 transition-colors underline font-medium"
-                aria-label="Visitar site da HASTYDEV"
-              >
-                HASTYDEV
               </a>
             </p>
           </div>
