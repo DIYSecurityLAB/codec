@@ -50,7 +50,11 @@ const Footer: React.FC<FooterProps> = ({ className = '' }) => {
               </div>
               <div className="flex items-center">
                 <span className="text-lg mr-2" aria-hidden="true">🕘</span>
-                <span>19h00</span>
+                <span>19h00 às 22h30</span>
+              </div>
+              <div className="flex items-center">
+                <span className="text-lg mr-2" aria-hidden="true">🚪</span>
+                <span>Entrada: 18h30</span>
               </div>
               <div className="flex items-center">
                 <span className="text-lg mr-2" aria-hidden="true">📍</span>

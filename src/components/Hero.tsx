@@ -60,7 +60,7 @@ const Hero: React.FC<HeroProps> = ({ className = "" }) => {
               </span>
               <span>
                 <span className="sr-only">Horário: </span>
-                19h00
+                19h00 às 22h30
               </span>
             </div>
             <div className="flex items-center justify-center sm:justify-start">

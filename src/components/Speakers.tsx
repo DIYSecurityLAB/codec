@@ -122,36 +122,36 @@ const Speakers: React.FC<SpeakersProps> = ({ className = '' }) => {
         
         <div className="text-center bg-gradient-to-r from-blue-50 to-green-50 rounded-xl p-6 sm:p-8 border border-blue-100">
           <h3 className="text-2xl sm:text-3xl font-bold text-blue-800 mb-4">
-            Programação das Palestras
+            Programação do Evento
           </h3>
           <div className="max-w-4xl mx-auto">
             <div className="grid sm:grid-cols-2 gap-6 mb-6">
               <div className="bg-white rounded-lg p-4 shadow-sm border border-blue-100">
                 <div className="flex items-center justify-center mb-2">
-                  <span className="text-2xl mr-2" aria-hidden="true">🕘</span>
-                  <h4 className="font-semibold text-blue-800">Primeiro Bloco</h4>
+                  <span className="text-2xl mr-2" aria-hidden="true">�</span>
+                  <h4 className="font-semibold text-blue-800">Entrada Liberada</h4>
                 </div>
-                <p className="text-blue-700 font-medium">09h00 - 10h15</p>
-                <p className="text-sm text-gray-600 mt-1">Palestra 1</p>
+                <p className="text-blue-700 font-medium text-2xl">18h30</p>
+                <p className="text-sm text-gray-600 mt-1">Chegada e credenciamento dos participantes</p>
               </div>
               
               <div className="bg-white rounded-lg p-4 shadow-sm border border-blue-100">
                 <div className="flex items-center justify-center mb-2">
-                  <span className="text-2xl mr-2" aria-hidden="true">🕚</span>
-                  <h4 className="font-semibold text-blue-800">Segundo Bloco</h4>
+                  <span className="text-2xl mr-2" aria-hidden="true">🎯</span>
+                  <h4 className="font-semibold text-blue-800">Evento Principal</h4>
                 </div>
-                <p className="text-blue-700 font-medium">10h45 - 12h15</p>
-                <p className="text-sm text-gray-600 mt-1">Palestras 2 e 3</p>
+                <p className="text-blue-700 font-medium text-2xl">19h às 22h30</p>
+                <p className="text-sm text-gray-600 mt-1">Palestras e atividades</p>
               </div>
             </div>
             
-            <div className="bg-yellow-50 rounded-lg p-4 border border-yellow-200">
+            <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
               <div className="flex items-center justify-center mb-2">
-                <span className="text-xl mr-2" aria-hidden="true">☕</span>
-                <h5 className="font-semibold text-yellow-800">Coffee Break</h5>
+                <span className="text-xl mr-2" aria-hidden="true">ℹ️</span>
+                <h5 className="font-semibold text-blue-800">Importante</h5>
               </div>
-              <p className="text-sm text-yellow-700">
-                10h15 - 10h45 | Momento de networking e integração entre os participantes
+              <p className="text-sm text-blue-700">
+                Recomendamos chegar com antecedência para garantir o credenciamento e aproveitar ao máximo o evento
               </p>
             </div>
           </div>
