@@ -21,7 +21,7 @@ const Supporters: React.FC<SupportersProps> = ({ className = '' }) => {
     },
     {
       name: 'ETEC Itaquera II',
-      logo: '/etec.jpeg',
+      logo: '/etec.webp',
     },
     {
       name: 'Gabriel Abreu',
