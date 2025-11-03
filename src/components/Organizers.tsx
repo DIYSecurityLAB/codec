@@ -9,6 +9,7 @@ const Organizers: React.FC<OrganizersProps> = ({ className = '' }) => {
   const organizers = [
     {
       name: 'Sidney Alves',
+      role: 'Coordenador do CODEC',
       qualifications: [
         'Professor de Administração de Empresas',
         'Professor de Educação Física',
@@ -21,6 +22,7 @@ const Organizers: React.FC<OrganizersProps> = ({ className = '' }) => {
     },
     {
       name: 'Bruno Garcia',
+      role: 'Coordenador do CODEC',
       qualifications: [
         'Professor de Educação Física',
         'Sensei de Artes Marciais',
@@ -30,6 +32,19 @@ const Organizers: React.FC<OrganizersProps> = ({ className = '' }) => {
       ],
       image: '/bruno.jpeg',
       ariaLabel: 'Perfil do Sensei Bruno Garcia'
+    },
+    {
+      name: 'Alcina Maria da Conceição',
+      role: 'Mediadora',
+      qualifications: [
+        'Formação em Comunicação Social - Relações Públicas',
+        'Formação em Pedagogia',
+        'Especialista em Atendimento aos Clientes',
+        'Conselheira Titular da AMA/UBS Integrada Padre Manoel da Nóbrega',
+        'Secretária do Conselho Gestor do CEU Abdias do Nascimento'
+      ],
+      image: '/alcina.jpeg',
+      ariaLabel: 'Perfil da Mediadora Alcina Maria da Conceição'
     }
   ];
 
@@ -52,7 +67,7 @@ const Organizers: React.FC<OrganizersProps> = ({ className = '' }) => {
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto mb-16 lg:mb-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto mb-16 lg:mb-20">
           {organizers.map((organizer, index) => (
             <div 
               key={index}
@@ -86,7 +101,7 @@ const Organizers: React.FC<OrganizersProps> = ({ className = '' }) => {
               </div>
               <div className="mt-6 inline-flex items-center px-4 py-2 bg-green-100 text-green-800 rounded-full text-xs sm:text-sm font-medium">
                 <span className="mr-1" aria-hidden="true">🏆</span>
-                Coordenador do CODEC
+                {organizer.role}
               </div>
             </div>
           ))}
