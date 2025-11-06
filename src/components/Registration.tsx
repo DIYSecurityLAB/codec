@@ -83,31 +83,6 @@ const Registration: React.FC<RegistrationProps> = ({ className = '' }) => {
         </div>
         
         <div className="text-center">
-          <div className="mb-8 lg:mb-12">
-            <h3 className="text-xl sm:text-2xl font-bold mb-4 text-yellow-100">Plataformas Oficiais</h3>
-            <p className="text-gray-200 mb-6 text-sm sm:text-base leading-relaxed">
-              As inscrições serão realizadas através das seguintes plataformas:
-            </p>
-            
-            <div className="grid sm:grid-cols-2 gap-4 max-w-lg mx-auto">
-              <button 
-                className="bg-white text-blue-600 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 focus-visible:bg-gray-100 transition-colors duration-300 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-blue-600"
-                aria-label="Inscrever-se através da plataforma Sympla"
-                type="button"
-              >
-                <span className="text-lg mr-2" aria-hidden="true">🎫</span>
-                Sympla
-              </button>
-              <button 
-                className="bg-white text-blue-600 font-bold py-3 px-6 rounded-lg hover:bg-gray-100 focus-visible:bg-gray-100 transition-colors duration-300 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-blue-600"
-                aria-label="Inscrever-se através da plataforma Even3"
-                type="button"
-              >
-                <span className="text-lg mr-2" aria-hidden="true">🎫</span>
-                Even3
-              </button>
-            </div>
-          </div>
           
           <div className="bg-yellow-400/25 backdrop-blur-sm rounded-xl p-6 sm:p-8 mb-8 lg:mb-12 border border-yellow-400/30">
             <h4 className="text-lg sm:text-xl font-bold mb-3 flex items-center justify-center text-yellow-100">
@@ -121,17 +96,19 @@ const Registration: React.FC<RegistrationProps> = ({ className = '' }) => {
           </div>
           
           <div className="space-y-4">
-            <button 
-              className="w-full sm:w-auto bg-yellow-400 text-blue-900 font-bold py-4 px-8 lg:px-12 rounded-lg text-lg sm:text-xl hover:bg-yellow-300 focus-visible:bg-yellow-300 transition-colors duration-300 shadow-xl focus-visible:ring-2 focus-visible:ring-yellow-300 focus-visible:ring-offset-2 focus-visible:ring-offset-blue-600"
-              aria-label="Inscrever-se agora no CODEC 2025"
-              type="button"
+            <a 
+              href="https://www.even3.com.br/codec-652594"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block w-full sm:w-auto bg-yellow-400 text-blue-900 font-bold py-4 px-8 lg:px-12 rounded-lg text-lg sm:text-xl hover:bg-yellow-300 focus-visible:bg-yellow-300 transition-colors duration-300 shadow-xl focus-visible:ring-2 focus-visible:ring-yellow-300 focus-visible:ring-offset-2 focus-visible:ring-offset-blue-600"
+              aria-label="Inscrever-se agora no CODEC 2025 através do Even3"
             >
               <span className="text-2xl mr-2" aria-hidden="true">🚀</span>
-              Inscrever-se Agora
-            </button>
+              Inscrever-se Agora no Even3
+            </a>
             
             <p className="text-sm text-gray-300 mt-4">
-              <span aria-hidden="true">⏳</span> As inscrições serão abertas em breve
+              <span aria-hidden="true">🎫</span> Inscrições através da plataforma Even3
             </p>
           </div>
         </div>
