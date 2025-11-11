@@ -42,6 +42,22 @@ const Supporters: React.FC<SupportersProps> = ({ className = '' }) => {
     {
       name: 'GIacco Becas',
       logo: '/giacco-becas.jpeg',
+    },
+    {
+      name: 'Compra Fácil Supermercados',
+      logo: '/compra-facil.jpg',
+    },
+    {
+      name: 'Microlins - Unidade Artur Alvim',
+      logo: '/microlins.jpeg',
+    },
+    {
+      name: 'Obra Social Dom Bosco',
+      logo: '/dom-bosco.jpeg',
+    },
+    {
+      name: 'Luis Bellu Fotografias',
+      logo: '/luis-bellu.jpeg',
     }
   ];
 
